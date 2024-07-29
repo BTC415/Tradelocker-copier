@@ -219,7 +219,7 @@ const MainPage = () => {
                             <TableCell className="text-right text-white">{masterFormState.isLive}</TableCell>
                             <TableCell className="text-right text-white">
                                 <div className="flex justify-end gap-6">
-                                    <img src='../src/assets/delete.svg' className="w-7 cursor-pointer" onClick={masterDelete}></img>
+                                    <img src='../src/assets/Delete.svg' className="w-7 cursor-pointer" onClick={masterDelete}></img>
                                 </div>
                             </TableCell>
                         </TableRow>
@@ -305,8 +305,8 @@ const MainPage = () => {
                                     <TableCell className="text-right text-white">{slave.isConnected ? "Connected" : "No Connection"}</TableCell>
                                     <TableCell className="text-right text-white">
                                         <div className="flex justify-end gap-6">
-                                            <img src='../src/assets/connection.svg' className="w-7 cursor-pointer" onClick={() => handleSlaveConnect(index)}></img>
-                                            <img src='../src/assets/delete.svg' className="w-7 cursor-pointer" onClick={() => handleDelete(index)}></img>
+                                            <img src='../src/assets/Connection.svg' className="w-7 cursor-pointer" onClick={() => handleSlaveConnect(index)}></img>
+                                            <img src='../src/assets/Delete.svg' className="w-7 cursor-pointer" onClick={() => handleDelete(index)}></img>
                                         </div>
                                     </TableCell>
                                 </TableRow>
